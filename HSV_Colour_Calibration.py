@@ -260,10 +260,10 @@ class App:
             for _ in range(3):
                 time.sleep(1)
             try:
-               # sets the first point of screenshot 
+                # sets the first point of screenshot 
                 if i == 0:
                     x1,y1 = pyautogui.position()
-               # sets the second point of screenshot 
+                # sets the second point of screenshot 
                 else:
                     x2,y2 = pyautogui.position()
 
